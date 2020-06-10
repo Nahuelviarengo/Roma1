@@ -1,0 +1,154 @@
+*{margin: o; padding: 0;}
+
+body{
+    background-color: black;
+}
+
+#portada{
+    background-image: url(img/Portada.jpg);
+    height: 500px;
+    padding: 0;
+}
+
+#logo{
+    text-align: center;
+    transition: 2s;
+    }
+
+
+#fondomenu{
+    background-color: blueviolet;
+    opacity: 0.2;
+    transition: 2s;
+   
+}
+
+#fondomenu:hover{
+    opacity: 1;
+}
+
+#menu{
+        color: white;
+}
+
+#novedades{
+
+    padding: 10%;
+   background-image: url(img/novimg.png); 
+   transition: 1s;
+   justify-content: space-between;
+}
+
+#novedades:hover{
+background-image: url(img/novedadesfondo1.jpg);
+}
+
+#tarjetas{
+    justify-content: space-between;
+}
+
+#productos{
+
+    background-image: url(img/fondo\ productos.jpg);
+
+}
+
+.productos{
+    width: 20%;
+    height: 30%;
+    border: cornsilk 2px solid;
+    position: relative;
+}
+
+#productos h2{
+    color: floralwhite;
+}
+
+.productos img{
+    position: absolute ;
+    z-index: 10;
+}
+
+#remeras{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 25px;
+    color: cornsilk;
+    z-index: 30;
+}
+
+#jeans{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 25px;
+    color: cornsilk;
+    z-index: 30;
+}
+
+#camperas{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 25px;
+    color: cornsilk;
+    z-index: 30;
+}
+
+#colprod{
+    justify-content: space-between;
+}
+
+
+#tarjetas2{
+    text-align: center;
+    justify-content: space-between;
+    padding: 5%;
+    transition: 2s;
+}
+
+
+#tarjetas2 img:hover{
+    
+    filter: blur(3px);
+}
+
+#tarjetas3{
+    text-align: center;
+    justify-content: space-between;
+    padding: 5%;
+    transition: 2s;
+}
+
+
+#tarjetas3 img:hover{
+    
+    filter: blur(3px);
+}
+
+#mayor{
+    background-image: url(img/fondomayoristas.jpg);
+}
+
+#mayor p{
+    color: floralwhite;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#formulario{
+
+    background-image: url(img/contacto.jpg);
+    transition: 2s;
+    color: mintcream;
+    padding: 5%;
+}
+
+#pie{
+    background-image: url(img/piefondo.jpg);
+    text-align: center;
+    color: beige;
+    font-size: 20px;
+}
